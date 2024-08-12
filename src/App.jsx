@@ -1,14 +1,14 @@
 import React from 'react';
-import AvatarScene from './components/AvatarScene';
+import SceneInteractionManager from './components/SceneInteractionManager';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Avatar Animation Demo</h1>
+        <h1>Avatar & Static Scene Interaction</h1>
       </header>
-      <AvatarScene />
+      <SceneInteractionManager />
     </div>
   );
 }
